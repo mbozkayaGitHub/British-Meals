@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
 *{
 
   margin: 0;
@@ -70,8 +72,35 @@ img {
   height: 300px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
+border-radius: 20px;
+cursor: pointer;
+transition: .3s;
 
 
 
-  
+}
+
+.card:hover {
+  transform: scale(1.1);
+  opacity: 0.85;
+}
+
+button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Antic Slab", sansı serif;
+  padding: 20px 40px ;
+  color: #fff;
+  letter-spacing: 1.3px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #0E3EDA;
+  border-radius: 20px;
+  transition: .3s;
+
+}
+button:hover {
+  background-color: #fff;
+  color: #0E3EDA;
 }

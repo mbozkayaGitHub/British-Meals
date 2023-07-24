@@ -6,7 +6,7 @@ function App() {
   const [visible, setVisible] = useState(3)
 
   function showMoreFood () {
-    setVisible(item=> item+= 3)
+    setVisible(item=> item+= 1)
   }
 
   useEffect(() => {

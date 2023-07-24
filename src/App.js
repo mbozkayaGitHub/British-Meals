@@ -11,7 +11,7 @@ function App() {
       <div className="container">
         <div className="card">
           <div className="image">
-          <img src="" alt="picture" />
+          <img src="" alt="" />
 
           </div>
           <p>...</p>
